@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="message" id="gameMessage">Game has started!</div>
+    <h2 id="status">White to move</h2>
+    <div class="timer" id="timer">Time: 00:00</div>
+    <div class="board" id="chessboard"></div>
+    <button class="controls" onclick="restartGame()">Replay Game</button>
+    <p><strong>Guide:</strong> Click a piece to select it, then click a valid move location to move it. Pawns can only move forward and capture diagonally.</p>
+    <script src="script.js"></script>
+</body>
+</html>
